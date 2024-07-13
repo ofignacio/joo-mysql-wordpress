@@ -1,0 +1,23 @@
+{
+  "name": "joo-to-wpp",
+  "version": "1.0.0",
+  "description": "Joomla to Wordpress migration",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_HTTPS=true NODE_TLS_REJECT_UNAUTHORIZED=0 node index.js",
+    "test": "npm run test"
+  },
+  "keywords": [
+    "wordpress",
+    "joomla"
+  ],
+  "author": "Ignacio Ocampo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "undici": "^6.19.2"
+  }
+}
