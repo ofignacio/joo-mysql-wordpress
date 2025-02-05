@@ -16,7 +16,7 @@ import { POOL_CONFIG } from "../utils/clients.js";
 
 const agent = new Agent(POOL_CONFIG);
 const query = util.promisify(mysql.query).bind(mysql);
-const SNUMBER = 5;
+const SNUMBER = 6;
 
 export const transformImages = (images) => {
   if (!images || images.length == 0) return "";
